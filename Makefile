@@ -1,3 +1,3 @@
 publish:
 	go fmt && go mod tidy && go test ./...
-	GOPROXY=proxy.golang.org go list -m github.com/vladfr/go-secrets@v0.1.0
+	GOPROXY=proxy.golang.org go list -m github.com/vladfr/go-secrets@v0.2.0
